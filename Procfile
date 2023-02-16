@@ -1,1 +1,1 @@
-web: npx directus bootstrap && npx directus start
+web: npx directus bootstrap && npm run apply-snapshot && npx directus start

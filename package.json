@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "Directus template for railway app",
   "scripts": {
-    "start": "npx directus start"
+    "start": "npx directus start",
+    "create-snapshot": "npx directus schema snapshot --yes ./snapshot.yaml",
+    "apply-snapshot": "npx directus schema apply --yes ./snapshot.yaml"
   },
   "engines": {
     "node": ">=12.20.0"
